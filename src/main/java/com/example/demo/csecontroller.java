@@ -15,4 +15,9 @@ public class csecontroller {
     public String rocks1() {
         return "Welcome to third cse";
     }
+    
+    @GetMapping("/adityacse")
+    public String rocks2() {
+        return "i am batman";
+    }
 }
